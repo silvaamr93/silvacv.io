@@ -1,0 +1,177 @@
+/*Silva*/
+/*
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+*/
+/*	-webkit-: cover;
+	-moz-: cover;
+	-o-: cover;
+	: cover;*/
+body{overflow-x:hidden;position: relative;
+-webkit-background-image: linear-gradient(#063134,#063236);
+-o-background-image: linear-gradient(#063134,#063236);
+-ms-background-image: linear-gradient(#063134,#063236);
+-moz-background-image: linear-gradient(#063134,#063236);
+background-image: linear-gradient(#063134,#063236);
+}
+.titles{font-size: 25px;color: #fff;margin: 100px 0 50px 0;text-transform: uppercase;font-family: 'Yanone Kaffeesatz', sans-serif;}
+.clear{clear: both;}
+/*loading*/
+#load{background-color: #063134;height: 1000px;width: 100%;text-align: center;position: fixed;top:0;left: 0;
+z-index: 231231;margin: 0!important;
+color: #fff;font-size: 80px;font-family: 'Yanone Kaffeesatz', sans-serif;}
+/*end-loading*/
+.container{max-width: 1170px;margin: 0 auto;}
+/*header*/
+header{width:100%;height:100px;
+position:relative;z-index:20;}
+header .social-media{float: right;margin:15px 30px;}
+header .social-media i{color: #4c9390;line-height: 1.5;opacity: 1;padding: 5px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition:all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+header .social-media i:hover{opacity: 0.6;}
+/*landing*/
+.landing{width:100%;height: 950px;position: relative;overflow: hidden;background-image:url(../img/background.jpg);
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+-ms-background-size:cover;
+background-size:cover;z-index:200;background-position: center center;background-attachment: fixed;}
+.btn button{background: none;border: none;}
+.btn{position: absolute;top: 92%;left: 45%;
+}
+/*end-landing*/
+/*profile*/
+.profile {margin-top: 100px;text-align:center;}
+.profile img{width: 15%;height:auto;
+	-webkit-border-radius:50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+-ms-border-radius:50%;
+border-radius: 50%;
+border: 3px rgba(255,255,255,0.5) solid;margin-top: 50px;}
+.profile p{font-family: 'Source Sans Pro', sans-serif;color: #fff;
+line-height: 1.7;
+margin:5% 0 0;font-size: 20px;text-align: center;text-transform: capitalize}
+.profile h2{font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;
+margin:1% 0 0;text-align: center;font-size: 28px;color:#fff;
+text-transform: capitalize}
+.profile h3{color:#4c9390;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;
+margin:1% 0 0;text-align: center;font-size: 28px;color:#fff;
+text-transform: capitalize}
+/*end-profile*/
+/*service*/
+.service p{font-size: 16px;font-family: 'Yanone Kaffeesatz', sans-serif;}
+.ser-ico{float: left;width: 25%;text-transform: uppercase;margin-top: 50px}
+.ser-ico i{color:#4c9390}
+.ser-ico p{color:#4c9390;font-family: 'Yanone Kaffeesatz', sans-serif}
+/*end-service*/
+.skills{clear:both;}
+.skills p{color: #fff;font-size: 16px;font-family: 'Yanone Kaffeesatz', sans-serif}
+.skills-par{overflow: hidden;width: 400px;height: 10px;background-color:#FFF;border:1px solid #FFF;position: relative;
+-webkit-transform: skew(10deg);
+-moz-transform: skew(10deg);
+-o-transform: skew(10deg);
+-ms-transform: skew(10deg);
+transform: skew(10deg);}
+.skill-loading{display: block;width: 99%;height: 100%;background-color: #4c9390;
+position: absolute;}
+.col{float: left;width: 48%;height: 250px;margin:1% 1%;
+background-position: center center;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+-ms-background-size:cover;
+background-size:cover;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;}
+.lf{background-image:url(../img/elegant.jpg);}
+.rt{background-image:url(../img/light.png);}
+.lf1{background-image:url(../img/in.jpg);}
+.rt1{background-image:url(../img/bees.jpg);}
+.col span{display: block;height: 0;width: 100%;background-color:rgba(0,0,0,0.5);
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition:all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+position: relative;}
+.col:hover span{height: 100%;}
+.col span i{position: absolute;top: 40%;left: 40%;display: none;color:#fff;;opacity:0.9;}
+.col:hover i{display: block;}
+#work p,
+#work a{color:#fff;font-family: 'Yanone Kaffeesatz', sans-serif;font-size:18px;text-transform:capitalize;text-decoration:none;-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition:all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;}
+#work a:hover{color:#6ae2c9}
+footer {font-size: 16px;color: #fff;text-transform: capitalize;font-family: 'Source Sans Pro', sans-serif;
+margin-top: 120px;text-align:center;}
+footer p{margin: 5px 0}
+.copy a{text-transform: capitalize;text-decoration: none;color: #fff;padding: 0;
+-webkit-transition: all 0.8s ease-in-out;
+-moz-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition:all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out}
+.copy a:hover{color: #6ae2c9}
+.copy button{background:none;border: transparent;float: right;}
+/*responsive*/
+@media all and (max-width: 566px){
+header .social-media{float: none;margin:0;text-align: center;}
+.skills-par{width: 300px;height: 8px}	
+.profile img{width: 26%}
+.copy button{display: none}
+.col span i{top: 50%;left: 45%;font-size: 18px}
+.landing{height: 500px;background-position: center center;} 
+}
+@media all and (max-width: 767px) and (min-width: 567px){
+.skills-par{width: 350px;height: 10px}
+.skill-loading{height: 100%}
+.service p{font-size: 10px}
+footer {font-size: 16px}
+.copy button{display: none}
+.col span i{top: 50%;left: 45%;font-size: 18px}
+.landing{height: 700px;background-position: center center;
+}
+}
+@media all and (min-width: 768px)and (max-width: 991px){
+.skills-par{width: 350px;height: 10px}
+.skill-loading{height: 100%}
+.landing{height: 800px;background-position: center center; }
+}
+@media all and (min-width: 1200px) and (max-width: 1600px){
+
+   .col{height: 350px}
+}
+@media all and (min-width: 1600px){
+.skills-par{width: 500px;height: 8px}       
+.skill-loading{height: 10px}
+ .col{height: 600px}
+ .col span i{top: 50%;left: 45%}
+ .landing{height: 2200px;} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
