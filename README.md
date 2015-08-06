@@ -1,2 +1,2 @@
 # silvacv.io
-Lorem ipsum dolor
+project link : http://silvaamr93.github.io/silvacv.io
