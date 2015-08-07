@@ -1,11 +1,4 @@
 /*Silva*/
-/*
-	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
-*/
-/*	-webkit-: cover;
-	-moz-: cover;
-	-o-: cover;
-	: cover;*/
 body{overflow-x:hidden;position: relative;
 -webkit-background-image: linear-gradient(#063134,#063236);
 -o-background-image: linear-gradient(#063134,#063236);
@@ -125,25 +118,27 @@ transition: all 0.8s ease-in-out}
 @media all and (max-width: 566px){
 header .social-media{float: none;margin:0;text-align: center;}
 .skills-par{width: 300px;height: 8px}	
-.profile img{width: 26%}
+.profile img{width: 35%}
 .copy button{display: none}
 .col span i{top: 50%;left: 45%;font-size: 18px}
-.landing{height: 500px;background-position: center center;} 
+.landing{height: 500px;background-attachment: scroll;} 
 }
 @media all and (max-width: 767px) and (min-width: 567px){
 .skills-par{width: 350px;height: 10px}
+.profile img{width: 35%}
 .skill-loading{height: 100%}
 .service p{font-size: 10px}
 footer {font-size: 16px}
 .copy button{display: none}
 .col span i{top: 50%;left: 45%;font-size: 18px}
-.landing{height: 700px;background-position: center center;
+.landing{height: 700px;background-attachment: scroll;
 }
 }
 @media all and (min-width: 768px)and (max-width: 991px){
 .skills-par{width: 350px;height: 10px}
+.profile img{width: 35%}
 .skill-loading{height: 100%}
-.landing{height: 800px;background-position: center center; }
+.landing{height: 800px;background-attachment: scroll; }
 }
 @media all and (min-width: 1200px) and (max-width: 1600px){
 
@@ -156,7 +151,6 @@ footer {font-size: 16px}
  .col span i{top: 50%;left: 45%}
  .landing{height: 2200px;} 
 }
-
 
 
 
