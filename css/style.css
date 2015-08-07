@@ -125,7 +125,7 @@ header .social-media{float: none;margin:0;text-align: center;}
 }
 @media all and (max-width: 767px) and (min-width: 567px){
 .skills-par{width: 350px;height: 10px}
-.profile img{width: 35%}
+.profile img{width: 30%}
 .skill-loading{height: 100%}
 .service p{font-size: 10px}
 footer {font-size: 16px}
@@ -136,7 +136,7 @@ footer {font-size: 16px}
 }
 @media all and (min-width: 768px)and (max-width: 991px){
 .skills-par{width: 350px;height: 10px}
-.profile img{width: 35%}
+.profile img{width: 28%}
 .skill-loading{height: 100%}
 .landing{height: 800px;background-attachment: scroll; }
 }
