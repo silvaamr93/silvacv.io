@@ -199,11 +199,14 @@ header .social-media{float: none;margin:0;text-align: center;}
             width: 100%;
     }
     .right{
-        margin-top: 200px
+        margin-top: 240px
         
     }
     #work {
     margin-top: 0;
+}
+.x{
+	display:none;
 }
 }
 @media all and (max-width: 767px) and (min-width: 567px){
