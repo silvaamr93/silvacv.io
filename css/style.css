@@ -39,10 +39,6 @@ background-size:cover;z-index:200;background-position: center center;background-
 /*end-landing*/
 /*profile*/
 .profile {margin-top: 100px;text-align:center;}
-.profile h2{
-	color:#f1c40f;
-	
-}
 .profile img{width: 15%;height:auto;
 	-webkit-border-radius:50%;
 	-moz-border-radius: 50%;
@@ -53,7 +49,7 @@ border: 3px rgba(255,255,255,0.5) solid;margin-top: 50px;}
 .profile p{font-family: 'Source Sans Pro', sans-serif;color: #fff;
 line-height: 1.7;
 margin:5% 0;font-size: 20px;text-align: center;text-transform: capitalize}
-.profile h2{font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;
+.profile h2{font-family: 'Yanone Kaffeesatz', sans-serif;	color:#f1c40f;
 margin:1% 0 0;text-align: center;font-size: 28px;color:#fff;
 text-transform: capitalize}
 .profile h3{color:#4c9390;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;
