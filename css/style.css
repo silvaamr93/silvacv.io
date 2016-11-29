@@ -78,7 +78,7 @@ color: #f1c40f;
 .service p{font-size: 16px;font-family: 'Yanone Kaffeesatz', sans-serif;}
 .ser-ico{float: left;width: 25%;text-transform: uppercase;margin-top: 50px}
 .ser-ico i{color:#ead39c}
-.ser-ico p{color:#fff;font-family: 'Yanone Kaffeesatz', sans-serif}
+.ser-ico p{color:#cd985f;font-family: 'Yanone Kaffeesatz', sans-serif}
 /*end-service*/
 #skills {clear: both;}
 .left{
@@ -122,7 +122,7 @@ color: #fff;
 font-family: 'Source Sans Pro', sans-serif;
 }
 #skills p i{
-color: #f1c40f;
+color:#cd985f;
 font-size: 16px;
 
 } 
