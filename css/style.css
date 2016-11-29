@@ -1,10 +1,6 @@
 /*Silva*/
 body{overflow-x:hidden;position: relative;
--webkit-background-image: linear-gradient(#063134,#063236);
--o-background-image: linear-gradient(#063134,#063236);
--ms-background-image: linear-gradient(#063134,#063236);
--moz-background-image: linear-gradient(#063134,#063236);
-background-image: linear-gradient(#063134,#063236);
+    background-color: #001437;
 }
 .titles{font-size: 25px;color: #fff;margin: 100px 0 50px 0;text-transform: uppercase;font-family: 'Yanone Kaffeesatz', sans-serif;}
 .clear{clear: both;}
@@ -45,7 +41,7 @@ background-size:cover;z-index:200;background-position: center center;background-
 	-o-border-radius: 50%;
 -ms-border-radius:50%;
 border-radius: 50%;
-border: 3px rgba(255,255,255,0.5) solid;margin-top: 50px;}
+border: 3px #ead39c solid;margin-top: 50px;}
 .profile p{font-family: 'Source Sans Pro', sans-serif;color: #fff;
 line-height: 1.7;
 margin:5% 0;font-size: 20px;text-align: center;text-transform: capitalize}
@@ -81,7 +77,7 @@ color: #f1c40f;
 /*service*/
 .service p{font-size: 16px;font-family: 'Yanone Kaffeesatz', sans-serif;}
 .ser-ico{float: left;width: 25%;text-transform: uppercase;margin-top: 50px}
-.ser-ico i{color:#f1c40f}
+.ser-ico i{color:#ead39c}
 .ser-ico p{color:#fff;font-family: 'Yanone Kaffeesatz', sans-serif}
 /*end-service*/
 #skills {clear: both;}
@@ -170,7 +166,7 @@ transition: all 0.8s ease-in-out}
 -o-transform: skew(10deg);
 -ms-transform: skew(10deg);
 transform: skew(10deg);}
-.skill-loading{display: block;width: 99%;height: 100%;background-color: #4c9390;
+.skill-loading{display: block;width: 99%;height: 100%;background-color: #ead39c;
 position: absolute;}
 .col{float: left;width: 48%;height: 250px;margin:1% 1%;
 background-position: center center;
